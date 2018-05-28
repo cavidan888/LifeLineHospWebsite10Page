@@ -1,0 +1,45 @@
+#countUp{
+	
+	background: red;
+	background: url("../img/countUp/counter.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+
+	.cuIconContainer{
+		width:150px;
+		height:130px;
+		/*background: orange;*/
+		text-align: center;
+		margin: 200px auto;
+
+		.realIcon{
+			background:#fff;
+			margin:0 auto;
+			width:80%;
+			height:100%;
+			line-height:120px;
+			border:2px solid #2ec8a6;
+			transition:250ms all;
+
+			&:hover{
+              background:#2ec8a6;
+
+			}
+	
+		}
+
+		span{
+			font-weight: bold;
+		}
+	}
+
+	.overlay{
+		background: rgba(245, 245, 245, 0.8);
+		width:100%;
+		height:100%;
+		position: absolute;
+		top:0;
+		left:0;
+	}
+}

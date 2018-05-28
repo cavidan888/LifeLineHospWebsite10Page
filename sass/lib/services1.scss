@@ -1,0 +1,165 @@
+#boxsesSlider{
+	height: 600px;
+
+	.bigSContainer{
+
+		height: 400px;
+		position: relative;
+
+		.bubbleBtn{
+
+			width:30px;
+			height: 30px;
+			background: transparent;
+			margin-left: 5px;
+			float: left;
+			border-radius:100%;
+			margin-left: 5px;
+			position: relative;
+			left:15%;
+			text-align: center;
+			line-height: 30px;
+			bottom:-40px;
+			border:1px solid black;
+		}
+
+
+
+
+   
+
+		.realSCont{
+
+
+            
+            .boxSld{
+               
+            	
+            }
+		}
+	}
+
+
+	.realSCont{
+
+   
+       float: left;
+    
+
+
+
+ 	.boxs{
+
+	 	width:360px;
+	 	height: 262px;
+	 	float: left;
+	 	padding:0;
+	 	position: relative;
+	 	
+
+     .custom{
+     	margin-left:30px;
+     	border:2px solid #2ec8a6;
+     	background-color: #fff;
+     	padding-bottom:50px;
+     	position: relative;
+     	overflow: hidden;
+     	transition: 250ms all;
+
+     	&:hover{
+     		border-color:orange;
+     		transition: 250ms all;
+     	};
+
+
+     	&:hover:before{
+     		background: orange;
+     		transition: 250ms all;
+     	};
+
+     	&:hover button{
+     		color:orange;
+     	};
+
+     	&:hover  button>span{
+     		color:orange;
+     	};
+
+     	&:before{
+     		content:"";
+     		width: 200px;
+     		height:250px;
+     		top:-126px;
+     		left:-130px;
+     		background-color:#2ec8a6;
+     		position: absolute;
+     		transform: rotate(50deg);
+     	};
+
+
+     	.icon-wrapper{
+
+     		left:15px;
+     		top:15px;
+     		background: transparent;
+     		position: relative;
+     		width:50px;
+     	}
+
+
+     }
+
+     .firstCus{
+
+     	margin-left: 50px;
+     	     	
+     }
+
+	 	.animalsImg {
+
+	 	margin-top:0px;
+	 	margin-left:60px;
+	 	
+
+	 	>img{
+
+           height: 200px;
+           padding-top: 35px;
+           width: 70%;
+
+	 	}
+
+	 	}
+
+	 	.boxContnet{
+            width: 280px;
+	 		position: absolute;
+	 		top:0;
+	 		text-align: center;
+	 		background-color: transparent;
+	 		margin-top:60px;
+	 		margin-left:40px;
+
+	 		button{
+
+	 			outline:none;
+	 			padding:10px 20px;
+	 			font-weight: bold;
+	 			color:#2ec8a6;
+	 			background: transparent;
+
+	 			span{
+
+	 				font-size:20px;
+	 				font-weight: bold;
+	 				font-family: sans-serif;
+	 				color:#2ec8a6;
+	 			}
+	 		}
+
+
+	 	}
+
+ }
+}
+}

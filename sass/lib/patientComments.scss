@@ -1,0 +1,136 @@
+#patComments{
+	width: 100%;
+	height: 600px;
+	background:aqua;
+	background-image: url("../img/patinetComents/test.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	position: relative;
+
+	.patCol{
+
+		background: rgba(245, 245, 245, 0.1);
+
+		position: relative;
+
+
+			&:before{
+
+	           width:150px;
+	           height:150px;
+	           background: aqua;
+	           position:absolute;
+	           top:-80px;
+	           left:-80px;
+	           content: "";
+	           transform:rotate(45deg);
+	           z-index: 99;
+		}
+	}
+
+
+	.customComents{
+
+		float: left;
+		margin-top:30px;
+		margin-bottom:60px;
+
+       h1{
+         color:#fff;
+       }
+	}
+
+	.patSliderButtons{
+
+		float: right;
+		margin-top:50px;
+
+
+		button{
+			width: 30px;
+			height: 30px;
+			border-radius:100%;
+            margin-left: 10px;
+            color:#ffffff;
+            background: #2ec8a6;
+            outline:none;
+		}
+	}
+
+	
+
+	.overlay{
+
+		position: absolute;
+		top:0;
+		left:0;
+	    background: rgba(9, 9, 9, 0.9);
+		width:100%;
+		height:100%;
+	}
+
+
+	.patSliderContainer{
+        
+        position: relative;
+		
+		height: auto;
+		float: left;
+		
+		padding-top: 30px;
+		padding-bottom:30px;
+       
+	    	
+	
+
+	    
+
+	    .prgrphCont{
+	    	
+	    	width:1150px;
+	    	float: left;
+	    	padding-left: 20px;
+	    	
+
+
+	    	
+
+
+	    	.paragraph{
+
+	    		width:80%;	
+	    		margin:0 auto;
+
+
+	    		p{
+
+                    padding:0;
+                    margin:0;
+	    			font-size: 18px;
+				    line-height: 26px;
+				    font-style: italic;
+				    color: #ffffff;
+				    font-family: 'Droid Serif', sans-serif;
+				    padding-top:50px;
+	    		}
+
+	    		.patImg{
+                   
+                   float: left;
+                   
+                   h5{
+
+                    padding:0;
+                    margin:0;
+                   	float: right;
+                   	margin-top:31px;
+                   	color:#fff;
+                   }
+
+	    		}
+	    	}
+	    }
+	}
+
+
+}

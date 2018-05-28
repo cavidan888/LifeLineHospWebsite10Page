@@ -1,0 +1,138 @@
+#booking {
+  background: #ffffff; }
+  #booking .bookingTitle {
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+    padding-top: 60px;
+    margin-bottom: 60px; }
+    #booking .bookingTitle h1 {
+      margin: 0px 0px 0px 0px;
+      color: #111111;
+      font-size: 30px;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 20px; }
+    #booking .bookingTitle img {
+      margin-bottom: 15px; }
+    #booking .bookingTitle p {
+      font-family: 'Open Sans', sans-serif;
+      line-height: 24px;
+      font-weight: 400;
+      font-size: 16px;
+      color: #757575; }
+  #booking .bookingForm {
+    background: #2ec8a6;
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+    top: 60px;
+    z-index: 99;
+    /*height: 400px;
+    width:80%;*/ }
+    #booking .bookingForm .form {
+      width: 95%;
+      /*height: 300px;*/
+      background: transparent;
+      margin: 0 auto;
+      padding-top: 30px;
+      color: white; }
+      #booking .bookingForm .form .inputsCol {
+        margin-bottom: 30px; }
+        #booking .bookingForm .form .inputsCol .inputCont {
+          width: 100%; }
+          #booking .bookingForm .form .inputsCol .inputCont .active {
+            border-color: #ffffff; }
+          #booking .bookingForm .form .inputsCol .inputCont input {
+            width: 100%;
+            height: 50px;
+            padding-left: 10px;
+            border: none;
+            outline: none;
+            border: 2px solid #7bddc7;
+            background: transparent;
+            color: #fff; }
+            #booking .bookingForm .form .inputsCol .inputCont input:hover {
+              border-color: #ffffff; }
+          #booking .bookingForm .form .inputsCol .inputCont textarea {
+            width: 100%;
+            padding-left: 10px;
+            background: transparent;
+            border: 2px solid #7bddc7;
+            outline: none;
+            padding-top: 5px; }
+        #booking .bookingForm .form .inputsCol button {
+          width: 160px;
+          height: 50px;
+          float: left;
+          color: black;
+          background: #ffffff;
+          text-align: center;
+          line-height: 47px;
+          border-radius: 50px;
+          font-size: 16px;
+          font-weight: bold;
+          transition: all 0.5s;
+          border: 2px solid transparent;
+          outline: none;
+          margin-bottom: 30px; }
+          #booking .bookingForm .form .inputsCol button:hover {
+            background: transparent;
+            border-color: #fff; }
+  #booking .chatBox {
+    background: #ffffff;
+    padding-top: 90px;
+    position: relative;
+    top: 60px;
+    z-index: 99; }
+    #booking .chatBox .chatBoxCont .chatBoxImg {
+      /*background: red;*/
+      text-align: center;
+      position: relative; }
+      #booking .chatBox .chatBoxCont .chatBoxImg:after {
+        width: 30px;
+        height: 30px;
+        content: "";
+        position: absolute;
+        bottom: -13px;
+        left: 46%;
+        background: #2ec8a6;
+        border: 6px solid #fff;
+        border-radius: 100%;
+        z-index: 100; }
+    #booking .chatBox .chatBoxCont .chatBoxText {
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 20px; }
+      #booking .chatBox .chatBoxCont .chatBoxText h1 {
+        font-size: 24px;
+        font-weight: 700;
+        color: black; }
+      #booking .chatBox .chatBoxCont .chatBoxText p {
+        color: black;
+        margin-top: 30px;
+        font-size: 16px; }
+    #booking .chatBox .chatBoxCont .chatBoxButton {
+      text-align: center;
+      /*background: green;*/
+      width: 55%;
+      margin: 0 auto; }
+      #booking .chatBox .chatBoxCont .chatBoxButton button {
+        width: 160px;
+        height: 50px;
+        color: white;
+        background: #f4ab01;
+        text-align: center;
+        line-height: 47px;
+        border-radius: 50px;
+        font-size: 16px;
+        font-weight: bold;
+        border: 2px solid transparent;
+        transition: 250ms all;
+        outline: none; }
+        #booking .chatBox .chatBoxCont .chatBoxButton button:hover {
+          background: transparent;
+          border-color: #f4ab01; }
+
+/*# sourceMappingURL=bookAppoiuntment.css.map */

@@ -1,0 +1,180 @@
+#footer{
+    
+    padding-top:90px;
+	background: #000;
+	padding-bottom:90px;
+	
+	.cusFooter{
+
+		.footerTitle{
+
+			p{
+
+			font-size: 16px;
+		    color: #757575;
+		    padding-top: 35px;
+		    margin-bottom: 20px;
+		    line-height: 24px;
+
+			}
+
+			a{
+
+				color: #2ec8a6;
+                text-decoration: none;
+			}
+		}
+
+        
+        .footerInfo{
+
+        	ul{
+        		list-style: none;
+
+        		>li{
+
+        			    float: left;
+					    width: auto;
+					    color: white;
+					    margin-bottom: 10px;
+					    list-style: none;
+
+        			i{
+        				    margin-right: 10px;
+                            line-height: 33px;
+						    border: 2px solid #373636;
+						    width: 34px;
+						    height: 34px;
+						    text-align: center;
+						    color: white;
+        			}
+        		}
+        	}
+        }
+
+
+	}
+
+	.damn{
+		
+		width:100%;
+
+		.damnTitle{
+ 
+          h1{
+
+          	font-size: 20px;
+		    color: #ffffff;
+		    font-weight: 700;
+		    text-transform: uppercase;
+          }
+
+		}
+
+		.damnEnd{
+
+			    float: left;
+			    width: auto;
+			    margin-top: 40px;
+
+
+
+			ul{
+				    margin: 0;
+				    padding: 0;
+				    width: 300px;
+                    list-style-type: none; 
+                    float: left;
+				li{
+
+					    display: inline-block;
+					    margin-left: 5px;
+					    margin-bottom: 5px;
+					    /*margin-left: 3px;*/
+					   
+					   /* padding-top:5px;*/
+
+					   img{
+
+					   	border:2px solid transparent;
+					   	transition: 250ms all;
+
+					   	&:hover{
+					   		border-color:#2ec8a6;
+					   	}
+					   }
+				}
+			}
+		}
+	}
+   
+
+
+  .userFulTitle{
+
+  	  margin-left: 60px;
+
+  	  p{
+
+  	  	    font-size: 16px;
+    color: #757575;
+    text-transform: capitalize;
+  	  }
+
+  	  h1{
+
+  	  	font-size: 20px;
+	    color: #ffffff;
+	    font-weight: 700;
+	    text-transform: uppercase;
+  	  }
+
+
+  	  ul{
+  	  	padding:0;
+  	  	margin:0;
+  	    list-style: none;
+        margin-top: 25px;
+
+  	  	>li{
+
+  	  		margin:0;
+  	  		padding:0;
+  	  		margin-bottom:8px;
+
+  	  		>a{
+  	  			color:#fff;
+  	  			padding-top: 10px;
+  	  			text-decoration: none;
+  	  		}
+
+  	  		>i{
+  	  			color:#2ec8a6;
+  	  			font-size:7px;
+  	  			margin-right: 15px;
+  	  		}
+  	  	}
+  	  }
+  }
+
+  .caco{
+   	margin-left:13px;
+   }
+
+   .caco2{
+   	  margin-top: 30px;
+   }
+
+   .scrolTopBtn{
+
+   margin-top:20px;
+   	float: right;
+
+   	button{
+   		padding:10px 15px;
+   		outline:none;
+        background: #2ec8a6;
+   	}
+   }
+
+}

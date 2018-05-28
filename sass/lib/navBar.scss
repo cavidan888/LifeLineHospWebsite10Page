@@ -1,0 +1,388 @@
+#nav-bar {
+    
+    height: 75px;
+    
+
+
+    .main {
+        padding: 0;
+        margin: 0;
+        
+         
+      
+
+    }
+
+    .brand {
+        float: left;
+
+        > img {
+            position: absolute;
+            bottom: -30px;
+            transition: 0.5s ease;
+            z-index:99;
+        }
+
+        >h2{
+            color:green;
+            line-height: 70px;
+        }
+    }
+
+    .navItems {
+        float: right;
+
+        > ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            float: right;
+            margin-top: 20px;
+
+
+            > li {
+                float: left;
+                padding-top: 5px;
+                padding-left: 18px;
+                padding-right: 18px;
+                padding-bottom: 5px;
+                border: 2px solid transparent;
+                border-radius: 20px;
+                box-sizing: border-box;
+                transition: 0.5s ease;
+                position: relative;
+                z-index: 3;
+                margin-left: 8px;
+
+                &:last-child{
+                    cursor:pointer;
+                }
+
+
+
+                > ul {
+                    list-style: none;
+                    width: 180px;
+                    border-top: 2px solid #00b894;
+                    height: auto;
+                    background: #fff;
+                    position: absolute;
+                    margin: 0;
+                    padding: 0;
+                    left: 0;
+                    top: 52px;
+                    opacity: 0;
+                    visibility: hidden;
+                    transition: 250ms all;
+                    overflow: hidden;
+
+                    > li {
+                        padding: 15px;
+                        transition: 250ms all;
+
+                        > a {
+                            text-decoration: none;
+                            color: #000;
+                            text-transform: uppercase;
+                            transition: 250ms all;
+                        }
+
+                        &:hover {
+                            background: orange;
+                            color: white;
+                        }
+
+                        &:hover > a {
+                            color: white;
+                        }
+                    }
+                }
+
+                &:hover {
+                    border-color: #00b894;
+                    transition: 0.5s ease;
+                }
+
+                &:last-child > a {
+                    color: #00b894;
+                }
+
+
+                &:last-child {
+                    border: none;
+                }
+
+                &:hover > ul {
+                    opacity: 1;
+                    visibility: visible;
+                }
+
+                > a {
+                    color: #000;
+                    font-family: sans-serif;
+                    text-decoration: none;
+                }
+
+                .search-bar {
+                    position: absolute;
+                    width: 265px;
+                    background-color: #fff;
+                    right: 0;
+                    top: 55px;
+                    height: 80px;
+                    opacity: 0;
+                    visibility: hidden;
+                    transition: 0.5s ease;
+                    z-index: 2;
+                    border:1px solid transparent;
+
+
+
+                    > input {
+                        border: none;
+                        outline: none;
+                        height: 53px;
+                        width: 90%;
+                        margin-top: 14px;
+                        margin-left: 12px;
+                        font-family: sans-serif;
+                        padding-left: 10px;
+                        border: 1px solid green;
+                    }
+
+                    > i {
+                        position: absolute;
+                        right: 0;
+                        bottom: 14.5px;
+                        right: 15.5px;
+                        color: gray;
+                        cursor: pointer;
+                        padding: 17.5px;
+                        text-align: center;
+                        transition:250ms all;
+
+                        &:hover {
+                            background-color: #00b894;
+                            color:#fff;
+                        }
+                    }
+                }
+            }
+        }
+
+
+        }
+
+    .navIcon{
+
+            
+            float: right;
+            position: absolute;
+            top:20px;
+            right:-10px;
+            width: 60px;
+            display: none;
+            cursor: pointer;
+            
+
+            >div{
+
+                 width: 35px;
+                 height: 5px;
+                 background-color: #2ec8a6;
+                 margin: 6px 0;
+
+                 &:nth-child(2){
+
+                    width:25px;
+                 };
+            }
+        }
+
+        .side-Bar{
+            background-color: #fff;
+            position: absolute;
+            overflow:auto;
+            top:0;
+            left:0;
+            width: 300px;
+            height:100%;
+            z-index:1000;
+            position: fixed;
+            margin-left:-300px;
+            transition: 250ms all;
+            text-transform: uppercase;
+            /*padding: 15px;*/
+            font-weight: bold;
+
+            .cntnt{
+                  border-bottom: 1px solid #d3d3d3;
+                  padding: 10px 20px;
+
+
+                 h3{
+
+                color:#000;
+               
+
+
+                >span{
+                    color:#2ec8a6;
+                }
+
+
+            }
+            }
+
+             .closeBtn{
+                    position: relative;
+                    top: -45px;
+                    left:250px;
+                    cursor: pointer;
+
+                    
+                }
+
+                .sideBarMenu{
+                        
+
+                        >ul{
+                            list-style: none;
+                            padding: 0;
+                            margin: 0;
+
+
+                            >li{
+
+                               list-style: none;
+                               padding: 0;
+                               margin: 0;
+
+
+                               
+                                 
+                                 width: 100%;
+                                
+                                 padding: 13px 22px;
+                                 border-bottom: 1px solid #d3d3d3;
+                                 transition: 250ms all;
+
+
+                                 &:hover{
+                                    background-color:#2ec8a6;
+                                 };
+
+                                  &:hover>ul{
+                                    background-color:#2ec8a6;
+                                    color: #fff;
+                                 };
+
+                                 &:hover>ul>li>a{
+                               
+                                    color: #fff;
+                                 };
+
+                                  &:hover>a{
+                                    color:red;
+                                  };
+                               
+
+                                 >ul{
+                                    list-style: none;
+                                    margin:0;
+                                    padding:0;
+                                    transition: 250ms all;
+                                    background-color: #2a2727;
+                                    display: none;
+                                    
+
+                                    &:hover{
+                                        background-color: transparent;
+                                    };
+
+                                    >li{
+
+                                        margin:0;
+                                        padding:0;
+                                        border-top: 1px solid #d3d3d3;
+                                    
+                                         padding-top: 13px;
+                                         padding-bottom:13px;
+
+                                        >a{
+                                            text-decoration: none;
+                                            color:#000;
+                                        }
+ 
+                                    }
+
+
+                                 }
+                                  
+                
+                                >a{
+                                    text-decoration: none;
+                                    color:#000;
+                                    position: relative;
+                                   
+                                    &::before{
+                                     
+
+                                      
+                                      right:0;
+                                      left:228px;
+                                      top:8px;
+                                      width: 10px;
+                                      height: 2px;
+                                      background-color: #000;
+                                      position:absolute;
+                                      display: block;
+                                      content: "";
+
+                                    }
+                                  
+                                   &::after{
+
+                                    position: absolute;
+                                    width:10px;
+                                    height: 2px;
+                                    top:8px;
+                                    left:228px;
+                                    background-color: #000;
+                                    display: block;
+                                    transform: rotate(90deg);
+                                    content:"";
+                                   }
+                                }
+                            }
+                        }
+                    }
+        }
+    }
+
+@media only screen and (max-width:993px){
+   
+   #nav-bar .navIcon{
+     
+    display: block;
+   
+
+   }
+
+    .navItems>ul{
+        display: none;   
+    }
+
+    .brand>img{
+
+        display: none;
+    }
+
+   .brand h2{
+    display: block;
+    opacity: 1;
+   }
+
+
+}
+ 

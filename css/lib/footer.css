@@ -1,0 +1,54 @@
+#footer {
+  background: #000; }
+  #footer .cusFooter .footerTitle p {
+    font-size: 16px;
+    color: #757575;
+    padding-top: 35px;
+    margin-bottom: 20px;
+    line-height: 24px; }
+  #footer .cusFooter .footerTitle a {
+    color: #2ec8a6;
+    text-decoration: none; }
+  #footer .cusFooter .footerInfo ul {
+    list-style: none; }
+    #footer .cusFooter .footerInfo ul > li {
+      float: left;
+      width: auto;
+      color: white;
+      margin-bottom: 10px;
+      list-style: none; }
+      #footer .cusFooter .footerInfo ul > li i {
+        margin-right: 10px;
+        line-height: 33px;
+        border: 2px solid #373636;
+        width: 34px;
+        height: 34px;
+        text-align: center;
+        color: white; }
+  #footer .damn {
+    width: 100%; }
+    #footer .damn .damnEnd {
+      float: left;
+      width: auto;
+      margin-top: 40px; }
+      #footer .damn .damnEnd ul {
+        margin: 0;
+        padding: 0;
+        width: 300px;
+        list-style-type: none;
+        float: left; }
+        #footer .damn .damnEnd ul li {
+          display: inline-block;
+          margin-left: 5px;
+          margin-bottom: 5px;
+          /*margin-left: 3px;*/
+          /* padding-top:5px;*/ }
+          #footer .damn .damnEnd ul li img {
+            border: 2px solid transparent;
+            transition: 250ms all; }
+            #footer .damn .damnEnd ul li img:hover {
+              border-color: #2ec8a6; }
+  #footer .userFulTitle {
+    margin-left: 60px; }
+
+/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,171 @@
+#Appointment{
+
+	
+
+
+
+	.appointBox{
+
+		h3{
+			font-size: 22px;
+			font-weight: 700;
+			color:#fff;
+			text-transform:uppercase;
+		}
+
+		>p{
+
+			color:#fff;
+		}
+
+		.info{
+
+			>ul{
+
+			list-style: none;
+			margin:0;
+			padding:0;
+			margin-top:15px;
+
+			>li{
+				float: left;
+				color:#fff;
+                position: relative;
+                margin-left:15px;
+
+                &:first-child{
+
+                	margin-left:0;
+                };
+
+				&:first-child:after{
+                 
+                   
+                   	content:"";
+                   	width:1px;
+                   	height: 100%;
+                   	background-color: orange;
+                   	position: absolute;
+                    top:0;
+                    left:235px;
+
+				}
+
+				>a{
+
+						text-decoration: none;
+						color:#fff;
+						font-family: $topBarFontFamily;
+				}
+			}
+
+
+		
+
+		 }
+		 h2{
+
+			float: left;
+    width: 100%;
+    background-color: #2ec8a6;
+    margin-top: 35px;
+    text-transform: capitalize;
+    height: 45px;
+    line-height: 1;
+    padding-top: 6px;
+    
+    font-size:25px;
+
+
+    &:before{
+
+    	content:"";
+    	left:-26px;
+    	top:100px;
+    	position: absolute;
+    	border-left: 42px solid transparent;
+    	border-top: 45.4px solid #2ec8a6;
+    };
+
+
+    
+		}
+
+		}
+     
+	}
+
+	.appCol{
+		background: orange;
+		background-image: url(../img/appBack/1.jpg);
+		background-repeat: no-repeat;
+		background-position: center 0; 
+		background-size: cover;
+		padding:60px;
+		position: relative;
+		z-index: 2;
+		padding-right: 0px;
+		color:#fff;
+		overflow: hidden;
+
+
+
+		.appClock{
+
+     	    position: relative;
+     	    top:-50px;
+     	    left:-50px;
+     	    z-index:3;
+     }
+
+		&:before{
+
+			content:"";
+			width: 100%;
+			height:100%;
+			background: rgba(9, 9, 9, 0.8);
+			position: absolute;
+			top:0;
+			left: 0;
+		}
+
+		 &:after{
+
+	    	content: "";
+	    	position: absolute;
+	        transform: rotate(45deg);
+	    	width: 300px;
+	    	height: 200px;
+	    	background-color: #2ec8a6;
+	    	left:-185px;
+	    	top:-155px;
+	    	z-index: 1;
+    };
+     
+
+		
+	}
+}
+
+@media only screen and (max-width: 500px) {
+    
+    #Appointment .appointBox .info h2{
+
+    	display: none;
+
+    }
+
+     #Appointment .ab2{
+
+    	display: none;
+    	
+    }
+
+    #Appointment .appointBox{
+
+    	width: 100%;
+    	height: auto;
+    	text-align: center;
+    	margin-left: -35px;
+    }
+}

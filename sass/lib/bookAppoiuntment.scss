@@ -1,0 +1,211 @@
+#booking{
+	
+  background:#ffffff;
+  
+
+
+  .bookingTitle{
+
+  	
+  	text-align: center;
+  	margin:0 auto;
+  	width:70%;
+  	padding-top: 60px;
+  	margin-bottom:60px;
+
+
+  	h1{
+  		margin: 0px 0px 0px 0px;
+	    color: #111111;
+	    font-size: 30px;
+	    font-weight: 700;
+	    text-transform: uppercase;
+	    margin-bottom:20px;
+  	}
+
+  	img{
+
+  		margin-bottom:15px;
+  	}
+
+    p{
+    	    font-family: 'Open Sans', sans-serif;
+		    line-height: 24px;
+		    font-weight: 400;
+		    font-size: 16px;
+		    color: #757575;
+    }
+
+  }
+
+   .bookingForm{
+       
+        background:#2ec8a6;
+        padding-top: 60px;
+        padding-left:50px;
+        padding-right:50px;
+        position: relative;
+        top:60px;
+        z-index: 99;
+        /*height: 400px;
+        width:80%;*/
+
+
+        .form{
+
+        	width:95%;
+        	/*height: 300px;*/
+        	background: transparent;
+        	margin:0 auto;
+        	padding-top: 30px;
+        	color: white;
+
+        	.inputsCol{
+
+
+               margin-bottom: 30px;
+
+        		.inputCont{
+        			width: 100%;
+
+        			.active{
+
+        				border-color:#ffffff;
+        			}
+        			
+
+        			input{
+        				width:100%;
+        				height: 50px;
+        				padding-left:10px;
+        				border:none;
+        				outline: none;
+        				border: 2px solid #7bddc7;
+        				background: transparent;
+        				color:#fff;
+
+        				&:hover{
+        					border-color:#ffffff
+        				};
+        			}
+
+        			textarea{
+        				width: 100%;
+        				padding-left: 10px;
+        				background: transparent;
+        				border: 2px solid #7bddc7;
+        				outline: none;
+        				padding-top:5px;
+        			}
+        		}
+
+                button{
+
+                	width: 160px;
+				    height: 50px;
+				    float: left;
+				    color: black;
+				    background: #ffffff;
+				    text-align: center;
+				    line-height: 47px;
+				    border-radius: 50px;
+				    font-size: 16px;
+				    font-weight: bold;
+				    transition: all 0.5s;
+				    border: 2px solid transparent;
+				    outline:none;
+				    margin-bottom: 30px;
+
+				    &:hover{
+
+				    	background:transparent;
+				    	border-color: #fff;
+				    };
+                }
+        	}
+        }
+   }
+
+   .chatBox{
+   	background: #ffffff;
+   	padding-top:90px;
+    position: relative;
+    top:60px;
+    z-index: 99;
+
+
+   	.chatBoxCont{
+
+   		.chatBoxImg{
+   			/*background: red;*/
+   			text-align: center;
+
+   			position: relative;
+
+   			&:after{
+
+   				width:30px;
+   				height:30px;
+   				content: "";
+   				position: absolute;
+   				bottom:-13px;
+   				left:46%;
+   				background: #2ec8a6;
+   			    border: 6px solid #fff;
+   				border-radius:100%;
+   				z-index: 100;
+   			};
+   		}
+
+   		.chatBoxText{
+
+   			text-align:center;
+   			margin-top: 30px;
+   			margin-bottom: 20px;
+
+   			h1{
+   				font-size:24px;
+   				font-weight:700;
+   				color:black;
+   			}
+
+   			p{
+   				color: black;
+			    margin-top: 30px;
+			    font-size: 16px;
+   			}
+   		}
+
+   		.chatBoxButton{
+
+   			text-align: center;
+   			/*background: green;*/
+   			width:55%;
+   			margin:0 auto;
+
+   			button{
+
+			   	width: 160px;
+			    height: 50px;
+			    color: white;
+			    background: #f4ab01;
+			    text-align: center;
+			    line-height: 47px;
+			    border-radius: 50px;
+			    font-size: 16px;
+			    font-weight: bold;
+			    border: 2px solid transparent;
+			    transition: 250ms all;
+			    outline:none;
+
+
+			    &:hover{
+			    	background:transparent;
+			    	border-color:#f4ab01;
+			    };
+   			}
+   		}
+   	}
+   }
+
+}

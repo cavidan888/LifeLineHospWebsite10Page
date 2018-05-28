@@ -1,0 +1,72 @@
+﻿$topBarBackColor: #00b894;
+$topBarBorderColor: #1dd1a1;
+$topBarFontFamily: 'Open Sans', sans-serif;
+
+
+$navBarBackColor:#ffffff78;
+
+*{
+
+    margin:0;
+    padding:0;
+    border:none;
+}
+
+body{
+    
+}
+
+.active{
+
+    visibility:visible;
+    transition:0.5s ease;
+}
+
+.clear{
+	clear:both;
+}
+
+.responsive{
+	width:100%;
+	height:auto;
+}
+
+.closeSideBar{
+	margin-left:-300px;
+}
+
+
+.navActive{
+
+	    position:fixed;
+        z-index:99;
+        top:0;
+        width:100%;
+        background:#ecf0f1;
+
+}
+
+@import "lib/topBar";
+@import "lib/navBar";
+@import "lib/slide";
+@import "lib/about";
+@import "lib/appointment";
+@import "lib/opeartion";
+@import "lib/Team";
+@import "lib/Welcome";
+@import "lib/event";
+@import "lib/countup";
+@import "lib/blog";
+@import "lib/patientComments";
+@import "lib/bookAppoiuntment";
+@import "lib/partners";
+@import "lib/enquiry";
+@import "lib/footer";
+@import "lib/aboutSlide";
+@import "lib/aboutMedical";
+@import "lib/gveyouBest";
+@import "lib/topServ";
+@import "lib/services1";
+@import "lib/serEvents";
+@import "lib/servPricing";
+@import "lib/addInfo";

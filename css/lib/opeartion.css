@@ -1,0 +1,103 @@
+#opSec {
+  margin-top: 60px;
+  height: 800px;
+  padding-top: 80px;
+  background-image: url(../img/doctor/doctors.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+  #opSec .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #ffffffa3;
+    text-align: center; }
+  #opSec .opHeader h2 {
+    color: #111111; }
+  #opSec .AcordionContainer .accordion {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding: 22px;
+    text-align: left;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #ffffff;
+    margin-top: 15px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-top: 1px solid gray; }
+    #opSec .AcordionContainer .accordion:after {
+      position: absolute;
+      content: "\f105";
+      width: 24px;
+      height: 24px;
+      background-color: #2ec8a6;
+      border-radius: 100%;
+      color: #fff;
+      font-size: 16px;
+      right: 20px;
+      font-weight: bold;
+      text-align: center; }
+  #opSec .AcordionContainer .panel {
+    padding: 15px 18px;
+    background-color: white;
+    border-left: 1px solid orange;
+    border-right: 1px solid orange;
+    border-bottom: 1px solid orange; }
+  #opSec .sliderBody {
+    max-width: 555px;
+    height: auto;
+    position: relative; }
+    #opSec .sliderBody .slider {
+      width: 100%;
+      background-color: orange;
+      overflow: hidden;
+      position: relative; }
+      #opSec .sliderBody .slider > ul {
+        list-style: none;
+        margin: 0;
+        padding: 0; }
+        #opSec .sliderBody .slider > ul > li {
+          float: left;
+          width: 555px;
+          height: 100%; }
+          #opSec .sliderBody .slider > ul > li > img {
+            width: 100%; }
+      #opSec .sliderBody .slider .btns {
+        color: #fff;
+        width: 100px;
+        height: 100px;
+        cursor: pointer;
+        border-radius: 100%;
+        outline: none;
+        position: absolute;
+        top: 40%;
+        background-color: #2ec8a6;
+        font-size: 20px;
+        padding-right: 18px; }
+      #opSec .sliderBody .slider .left {
+        left: -55px;
+        text-align: right; }
+      #opSec .sliderBody .slider .right {
+        left: 490px;
+        top: 40%;
+        text-align: center;
+        padding-right: 35px; }
+
+@media only screen and (max-width: 670px) {
+  #opSec {
+    height: auto; }
+
+  #opSec .sliderBody .slider .right {
+    padding: 0;
+    left: 350px; } }
+@media only screen and (max-width: 456px) {
+  #opSec .sliderBody .slider .right {
+    left: 180px;
+    text-align: left;
+    padding-left: 30px; } }
+
+/*# sourceMappingURL=opeartion.css.map */

@@ -1,0 +1,95 @@
+#blog {
+  margin-bottom: 60px; }
+  #blog .cusBlog {
+    width: 65%;
+    /*border:1px solid black;*/
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 25px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    margin-bottom: 15px; }
+    #blog .cusBlog h1 {
+      font-size: 30px;
+      color: #111111;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 15px; }
+    #blog .cusBlog img {
+      margin-bottom: 15px; }
+    #blog .cusBlog p {
+      color: gray; }
+  #blog .blogCont {
+    overflow: hidden; }
+    #blog .blogCont .imgCnt {
+      overflow: hidden; }
+      #blog .blogCont .imgCnt > img {
+        transition: 250ms all;
+        width: 100%; }
+        #blog .blogCont .imgCnt > img:hover {
+          transform: scale(1.2); }
+    #blog .blogCont .blogContent {
+      position: relative; }
+      #blog .blogCont .blogContent h1 {
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 24px;
+        margin-top: 10px; }
+      #blog .blogCont .blogContent > ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 10px; }
+        #blog .blogCont .blogContent > ul > li {
+          display: inline-block;
+          margin-right: 35px;
+          font-size: 17px;
+          font-weight: 450;
+          color: gray; }
+          #blog .blogCont .blogContent > ul > li:first-child {
+            position: relative; }
+            #blog .blogCont .blogContent > ul > li:first-child::after {
+              width: 1px;
+              height: 73%;
+              background-color: #707070;
+              position: absolute;
+              content: "";
+              top: 4px;
+              right: -18px; }
+      #blog .blogCont .blogContent p {
+        color: gray;
+        line-height: 26px;
+        font-size: 16px;
+        font-weight: 500; }
+      #blog .blogCont .blogContent a {
+        text-decoration: none;
+        padding-bottom: 30px;
+        color: #2ec8a6;
+        background: transparent;
+        font-weight: bold;
+        font-size: 20px; }
+        #blog .blogCont .blogContent a i {
+          margin-left: 15px;
+          font-size: 18px; }
+    #blog .blogCont .blogComment {
+      position: absolute;
+      top: 200px;
+      right: 35px;
+      /*background: red;*/
+      text-align: center; }
+      #blog .blogCont .blogComment > ul {
+        list-style: none;
+        margin: 0;
+        padding: 0; }
+        #blog .blogCont .blogComment > ul > li {
+          display: inline-block;
+          margin-left: 5px;
+          padding: 10px;
+          background: #fff; }
+          #blog .blogCont .blogComment > ul > li > i {
+            /*line-height: 60px;*/
+            font-size: 14px; }
+          #blog .blogCont .blogComment > ul > li span {
+            font-size: 14px; }
+
+/*# sourceMappingURL=blog.css.map */
