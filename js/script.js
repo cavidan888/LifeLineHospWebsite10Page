@@ -177,14 +177,31 @@ $(document).ready(function(){
  // })
 
  $(document).ready(function(){
+     
+      function addIframe(){
+
+      $('<iframe>', {
+
+         src: 'https://www.youtube.com/embed/fcYazsR6w-k',
+         id:  'myFrame',
+         frameborder: 0,
+         width:'100%',
+         height: '100%',
+         scrolling: 'no'
+         }).appendTo('.modalContent');
+
+}
+  
    
    $("#modal").hide();
 
    $(".openModal").on("click",function(){
       $("#modal").show();
+       addIframe();
 
       $(".closeBtn").on("click",function(){
         $("#modal").hide();
+          $('iframe').remove();
       })
    })
  })
